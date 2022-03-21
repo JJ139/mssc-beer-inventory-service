@@ -1,0 +1,9 @@
+C:\Users\jehjo\Documents\Udemy\Spring Boot Microservices\mssc-beer-inventory-service\src\main\java\nl\jellejoosten\beer\inventory\service\BeerInventoryApplication.java
+C:\Users\jehjo\Documents\Udemy\Spring Boot Microservices\mssc-beer-inventory-service\src\main\java\nl\jellejoosten\beer\inventory\service\web\model\BeerInventoryDto.java
+C:\Users\jehjo\Documents\Udemy\Spring Boot Microservices\mssc-beer-inventory-service\src\main\java\nl\jellejoosten\beer\inventory\service\domain\BaseEntity.java
+C:\Users\jehjo\Documents\Udemy\Spring Boot Microservices\mssc-beer-inventory-service\src\main\java\nl\jellejoosten\beer\inventory\service\repositories\BeerInventoryRepository.java
+C:\Users\jehjo\Documents\Udemy\Spring Boot Microservices\mssc-beer-inventory-service\src\main\java\nl\jellejoosten\beer\inventory\service\web\mappers\BeerInventoryMapper.java
+C:\Users\jehjo\Documents\Udemy\Spring Boot Microservices\mssc-beer-inventory-service\src\main\java\nl\jellejoosten\beer\inventory\service\bootstrap\BeerInvntoryBootstrap.java
+C:\Users\jehjo\Documents\Udemy\Spring Boot Microservices\mssc-beer-inventory-service\src\main\java\nl\jellejoosten\beer\inventory\service\web\mappers\DateMapper.java
+C:\Users\jehjo\Documents\Udemy\Spring Boot Microservices\mssc-beer-inventory-service\src\main\java\nl\jellejoosten\beer\inventory\service\web\controllers\BeerInventoryController.java
+C:\Users\jehjo\Documents\Udemy\Spring Boot Microservices\mssc-beer-inventory-service\src\main\java\nl\jellejoosten\beer\inventory\service\domain\BeerInventory.java

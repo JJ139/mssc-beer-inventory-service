@@ -1,0 +1,12 @@
+nl\jellejoosten\beer\inventory\service\web\mappers\BeerInventoryMapper.class
+nl\jellejoosten\beer\inventory\service\domain\BeerInventory.class
+nl\jellejoosten\beer\inventory\service\web\mappers\BeerInventoryMapperImpl.class
+nl\jellejoosten\beer\inventory\service\repositories\BeerInventoryRepository.class
+nl\jellejoosten\beer\inventory\service\web\mappers\DateMapper.class
+nl\jellejoosten\beer\inventory\service\web\model\BeerInventoryDto.class
+nl\jellejoosten\beer\inventory\service\web\controllers\BeerInventoryController.class
+nl\jellejoosten\beer\inventory\service\bootstrap\BeerInvntoryBootstrap.class
+nl\jellejoosten\beer\inventory\service\domain\BeerInventory$BeerInventoryBuilder.class
+nl\jellejoosten\beer\inventory\service\BeerInventoryApplication.class
+nl\jellejoosten\beer\inventory\service\domain\BaseEntity.class
+nl\jellejoosten\beer\inventory\service\web\model\BeerInventoryDto$BeerInventoryDtoBuilder.class

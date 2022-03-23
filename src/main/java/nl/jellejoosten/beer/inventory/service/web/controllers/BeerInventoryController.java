@@ -1,6 +1,8 @@
 package nl.jellejoosten.beer.inventory.service.web.controllers;
 
+import nl.jellejoosten.beer.inventory.service.domain.BeerInventory;
 import nl.jellejoosten.beer.inventory.service.repositories.BeerInventoryRepository;
+import nl.jellejoosten.beer.inventory.service.service.BeerInventoryService;
 import nl.jellejoosten.beer.inventory.service.web.mappers.BeerInventoryMapper;
 import nl.jellejoosten.beer.inventory.service.web.model.BeerInventoryDto;
 import lombok.RequiredArgsConstructor;
@@ -21,16 +23,21 @@ import java.util.stream.Collectors;
 @RestController
 public class BeerInventoryController {
 
-    private final BeerInventoryRepository beerInventoryRepository;
+    private final BeerInventoryService beerInventoryService;
     private final BeerInventoryMapper beerInventoryMapper;
 
     @GetMapping("api/v1/beer/{beerId}/inventory")
     List<BeerInventoryDto> listBeersById(@PathVariable UUID beerId){
         log.debug("Finding Inventory for beerId:" + beerId);
 
-        return beerInventoryRepository.findAllByBeerId(beerId)
+        List<BeerInventoryDto> beersDto = beerInventoryService
+                .findAllByBeerId(beerId)
                 .stream()
                 .map(beerInventoryMapper::beerInventoryToBeerInventoryDto)
                 .collect(Collectors.toList());
+
+        log.debug(String.valueOf(beersDto));
+
+        return beersDto;
     }
 }
